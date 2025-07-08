@@ -1,0 +1,20 @@
+POST /api/users/register - User registration
+POST /api/users/login - User authentication
+
+Bookings
+
+GET /api/bookings/services - Get available cleaning services
+POST /api/bookings/appointments - Book an appointment
+GET /api/bookings/appointments/{userId} - Get user's appointments
+
+Payments
+
+POST /api/payments/process - Process payment
+GET /api/payments/user/{userId} - Get user's payment history
+
+Subscriptions
+
+GET /api/subscriptions/plans - Get subscription plans
+POST /api/subscriptions/subscribe - Create subscription
+GET /api/subscriptions/user/{userId} - Get user's subscriptions
+POST /api/subscriptions/{id}/cancel -
